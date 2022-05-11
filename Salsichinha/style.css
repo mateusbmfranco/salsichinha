@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+    background-color: #E8DAB2;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+.container_salsicha {
+    width: 800px;
+    position: relative;
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0px;
+}
+
+header {
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 30px 0px 10px 0px;
+}
+
+#img_dog img {
+    width: 370px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+article {
+    background-color: white;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 34px 24px 10px 24px;
+}
+
+p {
+    margin-top: 24px;
+}
+
+.pet {
+    width: calc(100% - 30px);
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.video_youtube {
+    width: calc(100% - 30px);
+    height: 350px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    padding: 16px;
+    background-color: #090909;
+    color: #fff;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;   
+    width: 100%; 
+}
+
+footer a {
+    text-decoration: none;  
+    color: rgb(45, 100, 217);  
+}
+
